@@ -1,10 +1,8 @@
-CREATE DATABASE my_schema;
-USE my_schema;
+CREATE DATABASE user_schema;
+USE user_schema;
 
 CREATE TABLE `users` ( 
-    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT, 
-    `firstname` VARCHAR(20) NOT NULL, 
-    `lastname` VARCHAR(20) NOT NULL, 
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
     `username` VARCHAR(20) NOT NULL, 
     `password` CHAR(60) NOT NULL, 
         PRIMARY KEY (`id`), 
